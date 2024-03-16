@@ -46,11 +46,12 @@ header{
     width : 60px ;
 }
 
-.yay{
+.bx.bx-menu{
     color : var(--bg-color) ;
     font-size : 24px ;
     z-index : 10000 ;
     cursor : pointer ;
+    display : none ;
 }
 
 .navbar{
@@ -84,4 +85,27 @@ header{
 
 .header-icon .bx:hover{
     color : var(--main-color) ;
+}
+
+.search-box{
+    position: absolute ;
+    top : 100% ;
+    left : 50% ;
+    transform: translate(-50%);
+    background: var(--bg-color);
+    width:100% ;
+}
+
+.search-box input{
+    padding : 20px ;
+    border : none ;
+    outline : none ;
+    width : 100% ;
+    font-size : 1rem ;
+    color : var(--main-color) ;
+}
+
+.search-box input::placeholder{
+    font-size: 1rem ;
+    font-weight: 500 ;
 }
