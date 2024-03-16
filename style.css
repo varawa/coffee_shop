@@ -46,8 +46,11 @@ header{
     width : 60px ;
 }
 
-.bx-menu .bx{
+.yay{
     color : var(--bg-color) ;
+    font-size : 24px ;
+    z-index : 10000 ;
+    cursor : pointer ;
 }
 
 .navbar{
