@@ -332,3 +332,8 @@ header.shadow{
         font-size: 2rem ;
     }
 }
+.dev {
+    text-align: center ;
+    padding: 20px ;
+    background: var(--second-color) ;
+}
