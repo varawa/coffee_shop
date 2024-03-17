@@ -170,7 +170,7 @@ header.shadow{
 }
 .products-container{
     display : grid ;
-    grid-template-columns: repeat(auto-fit , minmax(280px , auto));
+    grid-template-columns: repeat(auto-fit , minmax(350px , auto));
     gap : 1.5rem ;
     margin-top: 2rem ;
 }
@@ -309,4 +309,26 @@ header.shadow{
     padding: 20px ;
     text-align: center ;
     background: var(--second-color) ;
+}
+@media(max-width:1058px){
+    header{
+        padding: 18px 60px ;
+    }
+    section{
+        padding: 50px 60px ;
+    }
+    .home-text h1{
+        font-size: 2.4rem ;
+    }
+}
+@media(max-width:991px){
+    header{
+        padding: 18px 4% ;
+    }
+    section{
+        padding: 50px 4% ;
+    }
+    .home-text h1{
+        font-size: 2rem ;
+    }
 }
