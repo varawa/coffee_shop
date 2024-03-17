@@ -337,3 +337,9 @@ header.shadow{
     padding: 20px ;
     background: var(--second-color) ;
 }
+.dev a{
+    color: #045b60 ;
+}
+.dev a:hover{
+    color: #bc9667;
+}
